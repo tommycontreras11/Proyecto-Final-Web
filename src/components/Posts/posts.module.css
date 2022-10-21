@@ -1,0 +1,36 @@
+.btnOpciones {
+  background-color: #242526;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+}
+
+.btnOpciones:hover {
+  background-color: #3A3B3C;
+}
+
+.btnlink {
+  text-decoration: "none"; 
+  background-color: #242526;
+  color: #B8B3A6;
+  border: none;
+  margin-top: 5px;
+}
+
+.btnlink:hover {
+  text-decoration:underline;
+}
+
+.file {
+  background-color: #242526;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  color: #B8B3A6;
+}
+
+.file:hover {
+  background-color: #3A3B3C;
+}
