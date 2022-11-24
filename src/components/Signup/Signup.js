@@ -66,8 +66,9 @@ function Signup() {
       <ToastContainer />
       <div className={styles.container}>
         <div className={styles.innerBox}>
-        <div className="d-flex justify-content-start">
-              <div className="p-2"><h1 className={styles.heading}>Regístrate</h1></div>
+        <div className="d-flex justify-content-center">
+              <div className="p-2"><h1 className={styles.heading}>Crear</h1></div>
+              <div className="p-2"><h1 style={{color: "#9900ff"}}>Cuenta</h1></div>
           </div>
           <InputControl label="Nombre" placeholder="Introduce tu nombre"
             onChange={(event) => setValues((prev) => ({ ...prev, name: event.target.value }))}

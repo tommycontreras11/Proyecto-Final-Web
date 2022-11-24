@@ -50,8 +50,8 @@ function Login() {
       <ToastContainer />
       <div className={styles.container}>
         <div className={styles.innerBox}>
-          <div className="d-flex justify-content-start">
-              <div className="p-2"><h1 className={styles.heading}>Inicia</h1></div>
+          <div className="d-flex justify-content-center">
+              <div className="p-2"><h1 className={styles.heading}>Iniciar</h1></div>
               <div className="p-2"><h1 style={{color: "#9900ff"}}>Sesión</h1></div>
           </div>
           <InputControl label="Email" placeholder="Introduce tu correo electrónico"
@@ -62,7 +62,7 @@ function Login() {
           />
 
           <div className={styles.footer}>
-            <button className={styles.btnComponents} onClick={handleSubmission}>Iniciar sesión</button>
+            <button className={styles.btnComponents} onClick={handleSubmission}>Loguearse</button>
             <p>
               No tienes una cuenta?{" "}
               <span>

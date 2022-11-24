@@ -42,7 +42,10 @@ function Home(props) {
                 :
                 <ul className="navbar-nav justify-content-end">
                   <li className="nav-item">
-                    <a href="/Login" className="nav-link">Log in</a>
+                    <a href="/Login" className="nav-link">Log In</a>
+                  </li>
+                  <li className="nav-item">
+                    <a href="/Signup" className="nav-link">Sign Up</a>
                   </li>
                 </ul>
             }
